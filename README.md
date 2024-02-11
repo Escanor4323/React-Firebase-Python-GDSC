@@ -27,26 +27,4 @@ This repository contains a Houses WebApp built using React. The application is d
 
 ## Setup Instructions
 
-1. Clone the repository to your local machine:
-
-```bash
-git clone <repository_url>
-```
-
-2. Install dependencies for both the React application and Python script.
-
-3. Set up Firebase configuration in both the React application and Python script to establish connections with the database and storage bucket.
-
-4. Run the Python script to upload initial data and images.
-
-5. Start the React application to view the Houses WebApp:
-
-```bash
-cd houses-webapp
-npm install
-npm start
-```
-
-## Contributions
-
-Contributions to this project are welcome. Feel free to fork the repository, make changes, and submit pull requests.
+# Oliver rifese
