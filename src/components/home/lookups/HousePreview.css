@@ -1,0 +1,58 @@
+.house-preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.house-preview-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: 850px;
+    width: 100%;
+}
+
+.house-preview-close {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.house-preview-image {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.house-preview-details {
+    margin-top: 20px;
+}
+
+.house-preview-title {
+    margin: 0;
+    color: #333;
+}
+
+.house-preview-location {
+    color: #666;
+    font-style: italic;
+}
+
+.house-preview-features {
+    list-style: none;
+    padding: 0;
+}
+
+.house-preview-features li {
+    margin-bottom: 10px;
+}

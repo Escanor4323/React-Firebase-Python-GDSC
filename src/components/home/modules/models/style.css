@@ -1,0 +1,32 @@
+.house-card {
+    width: 18rem;
+    margin: 0.5rem;
+}
+
+.house-image {
+    width: 100%; /* Ensure the image covers the card width */
+    object-fit: cover; /* Adjust this as needed */
+}
+
+.house-body {
+    padding: 1rem;
+}
+
+.house-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.house-text {
+    margin-bottom: 1rem;
+    color: #333; /* Adjust the color as needed */
+}
+
+.house-list {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+}
+
+.house-list-item {
+    margin-bottom: 0.25rem;
+}

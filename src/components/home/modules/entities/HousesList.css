@@ -1,0 +1,30 @@
+.houses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    justify-content: center;
+}
+
+.house-card {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Fixed height */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.house-image {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* This makes the image cover the area nicely */
+}
+
+.house-body {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
