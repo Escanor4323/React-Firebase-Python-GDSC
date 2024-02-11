@@ -2,10 +2,10 @@ import firebase_admin
 from firebase_admin import credentials, storage, db
 
 # Initialize Firebase
-cred = credentials.Certificate('houses-react-db-firebase-adminsdk-rxl7g-8c2bbbccf9.json')
+cred = credentials.Certificate('PATH TO YOUR JSON FILE')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://houses-react-db-default-rtdb.firebaseio.com/',
-    'storageBucket': 'houses-react-db.appspot.com'
+    'databaseURL': 'LINK TO YOUR DB LINK',
+    'storageBucket': 'STORAGE BUCKET URL'
 })
 
 
