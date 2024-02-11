@@ -1,4 +1,4 @@
-import { database } from './firebase'; // Adjust the import path as necessary
+import { database } from './firebase';
 import { ref, set, push, get, onValue, off } from 'firebase/database';
 
 class RealtimeDatabase {
