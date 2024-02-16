@@ -25,6 +25,3 @@ This repository contains a Houses WebApp built using React. The application is d
 
 3. **Image Retrieval**: The web application fetches images from the storage bucket using appropriate URLs obtained from the database, and dynamically displays them alongside the corresponding house information.
 
-## Setup Instructions
-
-# Oliver rifese
